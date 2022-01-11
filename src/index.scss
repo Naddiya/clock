@@ -1,0 +1,41 @@
+html {
+    font-family: serif;
+    background-color: #1E555C; 
+    height: 100vh;
+    color: #FFFFFF;
+    width: 500px;
+    margin: 5rem auto;
+    text-align:center;
+}
+
+.clock {
+    &-title {
+        font-size: 3rem;
+    }
+    &-controls{
+        font-size: 2rem;
+        font-weight: 600;
+        display: flex;
+        justify-content: space-between;
+        &-numbers {
+            margin: 1rem;
+        }
+    }
+    &-display {
+        border: solid 7px #13353A;
+        border-radius: 50px;
+        width: 300px;
+        margin: auto;
+        &-title {
+            font-size: 2rem;
+            margin-top: 1rem;
+        }
+        &-time {
+            margin: 1rem;
+            font-size: 5rem;
+            font-weight: 600;
+        }
+    }
+
+}
+
