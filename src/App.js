@@ -54,7 +54,7 @@ function App() {
             <i className="fa fa-pause-circle fa-3x"></i>
             <i className="fa fa-refresh fa-3x" id="reset"></i>
 
-            <div className="signature">
+            <div className="clock-signature">
                 <p>
                     Designed by Peter Weinberg
                 </p>
