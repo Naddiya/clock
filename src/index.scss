@@ -3,44 +3,67 @@ html {
     font-family: serif;
     background-color: #1E555C; 
     height: 100vh;
-    color: #FFFFFF;
     width: 500px;
     margin: 5rem auto;
     text-align:center;
 }
 
 .clock {
+    color: white;
     &-title {
-        font-size: 3rem;
+        font-size: 5rem;
+        font-weight: 200;
+        margin-bottom: 2rem;
     }
     &-controls{
+        cursor:pointer;
         font-size: 2rem;
-        font-weight: 600;
+        font-weight: 200;
         display: flex;
         justify-content: space-between;
-        &-numbers {
-            margin: 1rem;
+        &-btn {
+            color: white;
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+        &-btn :hover {
+            color: gray;
+        }
+        &-break , &-session {
+            margin: 0.2rem 1rem;
             display: flex;
-            justify-content: space-evenly;
+            justify-content: space-around;
+            align-items: flex-end;
         }
     }
     &-display {
-        border: solid 7px #13353A;
-        border-radius: 50px;
+        border: solid 9px #13353A;
+        border-radius: 60px;
         width: 300px;
-        margin: auto;
+        margin: 1rem auto;
+        padding: 1rem;
         &-title {
             font-size: 2rem;
             margin-top: 1rem;
         }
         &-time {
-            margin: 1rem;
-            font-size: 5rem;
-            font-weight: 600;
+            font-size: 7rem;
+            font-weight: 200;
         }
         margin-bottom: 1rem;
     }
+    &-icons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        :hover {
+            cursor: pointer;
+            color: gray;
+        }
+    }
     &-signature {
+        color: #00264d;
         font-family: 'Share Tech Mono', monospace;
     }
 }
