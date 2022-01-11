@@ -20,6 +20,8 @@ html {
         justify-content: space-between;
         &-numbers {
             margin: 1rem;
+            display: flex;
+            justify-content: space-evenly;
         }
     }
     &-display {

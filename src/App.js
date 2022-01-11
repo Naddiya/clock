@@ -14,18 +14,18 @@ function App() {
             <div className="clock-controls">
                 <div id="break-label">
                     Break Length
-                    <div id="break-decrement" className="clock-controls-numbers">
-                        <i class="fa fa-arrow-down"></i>
+                    <div  className="clock-controls-numbers">
+                        <i id="break-decrement" className="fa fa-arrow-down"></i>
                         {breakLength}
-                        <i class="fa fa-arrow-up"></i>
+                        <i id="break-increment" class="fa fa-arrow-up"></i>
                     </div>
                 </div>
                 <div id="session-label">
                     Session Length
-                    <div id="session-increment" className="clock-controls-numbers">
-                        <i class="fa fa-arrow-down"></i>
+                    <div className="clock-controls-numbers">
+                        <i id="session-decrement" class="fa fa-arrow-down"></i>
                         {sessionLenght}
-                        <i class="fa fa-arrow-up"></i>
+                        <i id="session-increment" class="fa fa-arrow-up"></i>
                     </div>
                 </div>
             </div>
