@@ -28,7 +28,7 @@ html {
             cursor: pointer;
         }
         &-btn :hover {
-            color: gray;
+            color: #67a1aa;
         }
         &-break , &-session {
             margin: 0.2rem 1rem;
@@ -40,11 +40,11 @@ html {
     &-display {
         border: solid 9px #13353A;
         border-radius: 60px;
-        width: 300px;
+        width: 350px;
         margin: 1rem auto;
         padding: 1rem;
         &-title {
-            font-size: 2rem;
+            font-size: 3rem;
             margin-top: 1rem;
         }
         &-time {
@@ -59,12 +59,15 @@ html {
         gap: 10px;
         :hover {
             cursor: pointer;
-            color: gray;
+            color: #67a1aa;
         }
     }
     &-signature {
-        color: #00264d;
+        color: #67a1aa;
         font-family: 'Share Tech Mono', monospace;
     }
 }
 
+.warning {
+    color: rgb(160, 9, 9);
+}
