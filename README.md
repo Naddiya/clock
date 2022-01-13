@@ -1,4 +1,4 @@
-# :alarm_clock: Javascript countdown clock 
+# :alarm_clock: Javascript countdown clock
 
 >freecodecamp frontendLibraries certification
 
@@ -12,4 +12,4 @@ yarn build
 
 ## :tv: OverView
 
-![alt text](public/clock.png)
+![clock overview](public/clock.png)
