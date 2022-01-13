@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# :alarm_clock: Javascript countdown clock 
 
-`yarn start`
-`yarn test`
-`yarn build`
-`yarn eject`
+>
+freecodecamp frontendLibraries certification
+
+## :clapper: Run the project 
+
+```bash
+yarn 
+yarn start
+yarn build
+```
